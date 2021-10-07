@@ -22,4 +22,9 @@ Merge:
 Teste Mock:
 
 CI:
+Pré-requisitos
+Você deve estar familiarizado com o YAML e a sintaxe do GitHub Actions. Para obter mais informações, consulte:
 
+"Sintaxe de fluxo de trabalho para o GitHub Actions"
+"Aprenda GitHub Actions"
+Recomendamos que você tenha um entendimento básico da estrutura do Java e do Maven. Para obter mais informações, consulte "Guia de introdução ao Maven" na documentação do Maven.
