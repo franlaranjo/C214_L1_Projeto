@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="C214_Projeto" />
         <module name="C214_Exercicio1_1402" />
+        <module name="C214_L1_Projeto" />
       </profile>
     </annotationProcessing>
   </component>
