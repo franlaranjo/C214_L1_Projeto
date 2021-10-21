@@ -35,5 +35,5 @@ Recomendamos que você tenha um entendimento básico da estrutura do Java e do M
 
 Para clonar o repositório em algum lugar na sua máquina, basta utilizar o comando abaixo:
 ```bash
-$ git clone https://github.com/franlaranjo/C209_TrabalhoCodDecode.git
+$ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 ```
