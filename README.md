@@ -21,8 +21,8 @@
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-- [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
-- Sobre o Java:
+- ![image](https://user-images.githubusercontent.com/88806125/140592474-17aef3f4-2b7b-4793-88cd-1a4d8ee8440b.png)[IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
+- ![image](https://user-images.githubusercontent.com/88806125/140592458-f4d8fce9-fc35-4647-8eb0-a204418f6c0f.png)
 - Teste de Unidade:
 - Teste Mock:
 - CI: Você deve estar familiarizado com o YAML e a sintaxe do GitHub Actions. Para obter mais informações, consulte:
