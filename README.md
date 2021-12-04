@@ -23,8 +23,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 - ![image](https://user-images.githubusercontent.com/88806125/140592474-17aef3f4-2b7b-4793-88cd-1a4d8ee8440b.png)[IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
 - ![image](https://user-images.githubusercontent.com/88806125/140592458-f4d8fce9-fc35-4647-8eb0-a204418f6c0f.png)
-- Teste de Unidade:
-- Teste Mock:
+- Teste de Unidade: É toda a aplicação de teste nas assinaturas de entrada e saída de um sistema. Consiste em validar dados válidos e inválidos via I/O (entrada/saída) sendo aplicado por desenvolvedores ou analistas de teste.
+- Teste Mock: Normalmente criados para testar o comportamento de outros objetos. ... Em outras palavras, os objetos mock são objetos “falsos” que simulam o comportamento de uma classe ou objeto “real” para que possamos focar o teste na unidade a ser testada.
 - CI: Você deve estar familiarizado com o YAML e a sintaxe do GitHub Actions. Para obter mais informações, consulte:
 "Sintaxe de fluxo de trabalho para o GitHub Actions"
 "Aprenda GitHub Actions"
