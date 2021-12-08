@@ -10,6 +10,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
 import java.util.Date;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -30,7 +31,15 @@ public class ConversorDataTest {
         LocalDate localDate = LocalDate.of(2020, 1, 8);
         Date date =  ConversorData.converterLocalDateParaDate(localDate);
 
-        Assert.assertEquals("2020-01-08T03:00:00Z", date.toInstant().toString());
+        Calendar c = Calendar.getInstance();
+        c.setTime(date);
+        int diaDoMes = c.get(Calendar.DAY_OF_MONTH);
+        int mes = c.get(Calendar.MONTH);
+        int ano = c.get(Calendar.YEAR);
+
+        Assert.assertEquals(2020, ano);
+        Assert.assertEquals(Calendar.JANUARY, mes); //no Calendar janeiro é o número 0
+        Assert.assertEquals(8, diaDoMes);
     }
 
     @Test
