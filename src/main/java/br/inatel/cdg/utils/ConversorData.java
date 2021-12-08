@@ -7,6 +7,7 @@ package br.inatel.cdg.utils;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 /**
@@ -32,5 +33,16 @@ public class ConversorData {
      */
     public static Date converterLocalDateParaDate(LocalDate date) {
         return Date.from(date.atStartOfDay(ZoneId.systemDefault()).toInstant());
+    }
+
+    /**
+     *
+     * @param date
+     * @return date
+     */
+    public static LocalDate converterStringParaLocalDate(String date) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy");
+        LocalDate localDate = LocalDate.parse(date, formatter);
+        return localDate;
     }
 }

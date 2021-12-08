@@ -2,9 +2,8 @@ package br.inatel.cdg.controller;
 
 import br.inatel.cdg.DAO.*;
 import br.inatel.cdg.model.*;
+import br.inatel.cdg.utils.ConversorData;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class Main {
@@ -120,7 +119,7 @@ public class Main {
         participante.setCPF("000.000.000-00");
         participante.setEmail("fran@gmail.com");
         participante.setTelefone("35 00000-0000");
-        participante.setDataNascimento(getLocalDate("01/01/2001"));
+        participante.setDataNascimento(ConversorData.converterStringParaLocalDate("01/01/2001"));
 
         participante = participanteDAO.criar(participante);
     }
@@ -187,13 +186,13 @@ public class Main {
     //Evento
     public static void criarEvento() {
         evento.setNome("Rock'n Rio");
-        evento.setData(getLocalDate("02/02/2022"));
+        evento.setData(ConversorData.converterStringParaLocalDate("02/02/2022"));
         evento.setPalco(palco);
         eventoDAO.criar(evento);
     }
 
     public static void alterarEvento() {
-        evento.setData(getLocalDate("03/03/2023"));
+        evento.setData(ConversorData.converterStringParaLocalDate("03/03/2023"));
         eventoDAO.atualizar(evento);
         System.out.println(evento.toString());
     }
@@ -230,9 +229,4 @@ public class Main {
         ingressoDAO.excluir(ingresso.getId());
     }
 
-    private static LocalDate getLocalDate(String date) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy");
-        LocalDate localDate = LocalDate.parse(date, formatter);
-        return localDate;
-    }
 }

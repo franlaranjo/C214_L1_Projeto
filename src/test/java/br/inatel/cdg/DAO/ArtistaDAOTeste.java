@@ -6,14 +6,19 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.mockito.Matchers.anyString;
+import static org.mockito.Matchers.*;
+import static org.mockito.Matchers.anyObject;
+import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -21,12 +26,14 @@ public class ArtistaDAOTeste {
 
     @Mock
     private static ArtistaDAO dao;
+
     private static Artista artista = new Artista();
     private static List<Artista> artistaList =  new ArrayList<>();
 
-    @SneakyThrows
+
     @BeforeClass
     public static void preSetup(){
+
         Artista art1 = new Artista();
         art1.setId(1);
         art1.setNome("testNome1");
@@ -44,25 +51,35 @@ public class ArtistaDAOTeste {
     public void testeCriarArtista(){
         artista.setNome("testNome3");
         artista.setGeneroMusical("testGenMus3");
+
         when(dao.criar(artista)).thenReturn(artista);
-        Assert.assertNotNull(dao.criar(artista).getNome());
+        Mockito.doCallRealMethod().when(dao).criar(artista);
+
+        Artista art = dao.criar(artista);
+
+        Assert.assertNotNull(art.getNome());
+        Assert.assertEquals(0, art.getId());
     }
 
     @Test
     public void testeAlterarArtista(){
+        artista.setId(0);
         artista.setNome("testNome4");
         artista.setGeneroMusical("testNome4");
 
         when(dao.atualizar(artista)).thenReturn(true);
+
+
         Assert.assertTrue(dao.atualizar(artista));
     }
 
     @Test
     public void testeLerArtistas(){
         when(dao.ler(anyString())).thenReturn(artistaList);
-        Mockito.doCallRealMethod().when(dao).ler(anyString());
 
-        Assert.assertEquals(2,artistaList.size());
+        List<Artista> listaDeArtistas = dao.ler("testNome4");
+
+        Assert.assertEquals(2,listaDeArtistas.size());
     }
 
     @Test
