@@ -12,7 +12,6 @@
 - Equipe: Francielly Marianne Laranjo Silva(franlaranjo) e Phellype Augusto Pereira(phellype4)
 - Linguagem de Programação: JAVA
 - Funcionalidades implementadas: Testes de Unidade, Branches, Merge, Testes Mock, CI
-
 ---
 
 ## 🚀 Como executar
@@ -29,7 +28,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 "Sintaxe de fluxo de trabalho para o GitHub Actions"
 "Aprenda GitHub Actions"
 Recomendamos que você tenha um entendimento básico da estrutura do Java e do Maven. Para obter mais informações, consulte "Guia de introdução ao Maven" na documentação do Maven.
-
 
 
 ### Clonando repositório
