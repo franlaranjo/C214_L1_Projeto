@@ -1,13 +1,7 @@
 # Engenharia de Software - LAB
 [![CI](https://github.com/franlaranjo/C214_L1_Projeto/actions/workflows/main.yml/badge.svg)](https://github.com/franlaranjo/C214_L1_Projeto/actions/workflows/main.yml)
 
-- [Sobre](#-sobre)
-- [Demonstração](#-demonstração)
-- [Ferramentas](#-ferramentas)
-- [Clone](#-clone)
-- [Saiba mais](#-saiba-mais)
-
-## :computer: Sobre
+## [:computer:] Sobre
 
 - Trabalho de C214-L1
 - Orientação: Leonardo Silva de Souza (Leo18ss)
