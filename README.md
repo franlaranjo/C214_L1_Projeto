@@ -3,7 +3,7 @@
 
 - [Sobre](#-sobre)
 - [Como executar](#-como-executar)
-
+- [Saiba mais](#-saiba-mais)
 
 ## 💻 Sobre
 
@@ -20,15 +20,9 @@
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-- ![image](https://user-images.githubusercontent.com/88806125/140592474-17aef3f4-2b7b-4793-88cd-1a4d8ee8440b.png)[IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
-- ![image](https://user-images.githubusercontent.com/88806125/140592458-f4d8fce9-fc35-4647-8eb0-a204418f6c0f.png)
-- Teste de Unidade: É toda a aplicação de teste nas assinaturas de entrada e saída de um sistema. Consiste em validar dados válidos e inválidos via I/O (entrada/saída) sendo aplicado por desenvolvedores ou analistas de teste.
-- Teste Mock: Normalmente criados para testar o comportamento de outros objetos. ... Em outras palavras, os objetos mock são objetos “falsos” que simulam o comportamento de uma classe ou objeto “real” para que possamos focar o teste na unidade a ser testada.
-- CI: Você deve estar familiarizado com o YAML e a sintaxe do GitHub Actions. Para obter mais informações, consulte:
-"Sintaxe de fluxo de trabalho para o GitHub Actions"
-"Aprenda GitHub Actions"
-Recomendamos que você tenha um entendimento básico da estrutura do Java e do Maven. Para obter mais informações, consulte "Guia de introdução ao Maven" na documentação do Maven.
-
+- [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
+- [MYSQL Workbench](https://dev.mysql.com/downloads/workbench/)
+- [Maven](https://maven.apache.org/install.html)
 
 ### Clonando repositório
 
@@ -36,3 +30,10 @@ Para clonar o repositório em algum lugar na sua máquina, basta utilizar o coma
 ```bash
 $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 ```
+
+## 💻 Saiba mais
+
+-[CI](https://aws.amazon.com/pt/devops/continuous-integration/)
+-[Github Actions](https://github.com/features/actions)
+-[Testes Mock](http://www.desenvolvimentoagil.com.br/xp/praticas/tdd/mock_objects): Normalmente criados para testar o comportamento de outros objetos. Em outras palavras, os objetos mock são objetos “falsos” que simulam o comportamento de uma classe ou objeto, permitindo foco na unidade a ser testada.
+-[Testes unitários](https://medium.com/assertqualityassurance/teste-unit%C3%A1rio-e-qualidade-de-software-acce7b9c537#:~:text=Testes%20de%20Unidade%20ou%20teste,elas%20estejam%20funcionando%20conforme%20especificado.): É toda a aplicação de teste nas assinaturas de entrada e saída de um sistema. Consiste em validar dados válidos e inválidos.
