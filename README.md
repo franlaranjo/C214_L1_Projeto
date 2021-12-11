@@ -2,7 +2,9 @@
 [![CI](https://github.com/franlaranjo/C214_L1_Projeto/actions/workflows/main.yml/badge.svg)](https://github.com/franlaranjo/C214_L1_Projeto/actions/workflows/main.yml)
 
 - [Sobre](#-sobre)
-- [Como executar](#-como-executar)
+- [Demonstração](#-demonstração)
+- [Ferramentas](#-ferramentas)
+- [Clone](#-clone)
 - [Saiba mais](#-saiba-mais)
 
 ## :computer: Sobre
