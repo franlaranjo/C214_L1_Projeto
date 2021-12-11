@@ -5,18 +5,22 @@
 - [Como executar](#-como-executar)
 - [Saiba mais](#-saiba-mais)
 
-## 💻 Sobre
+## :computer: Sobre
 
 - Trabalho de C214-L1
 - Orientação: Leonardo Silva de Souza (Leo18ss)
 - Equipe: Francielly Marianne Laranjo Silva(franlaranjo) e Phellype Augusto Pereira(phellype4)
 - Linguagem de Programação: JAVA
-- Funcionalidades implementadas: Testes de Unidade, Branches, Merge, Testes Mock, CI
+- Projeto desenvolvido para a disciplina de Engenharia de Software do Instituto Nacional de Telecomunicações (INATEL), com propósito de demonstrar os conhecimentos adquiridos durante o semestre
 ---
 
-## 🚀 Como executar
+## :movie_camera: Demonstração
 
-### Pré-requisitos
+Para visualizar a demonstração de funcionamento do projeto, [clique aqui](https://github.com/franlaranjo/C214_L1_Projeto/tree/main/Videos)
+
+##
+
+## :hammer: Ferramentas
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
@@ -24,14 +28,14 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - [MYSQL Workbench](https://dev.mysql.com/downloads/workbench/)
 - [Maven](https://maven.apache.org/install.html)
 
-### Clonando repositório
+## :warning: Clone
 
 Para clonar o repositório em algum lugar na sua máquina, basta utilizar o comando abaixo:
 ```bash
 $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 ```
 
-## 💻 Saiba mais
+## :bulb: Saiba mais
 
 -[CI](https://aws.amazon.com/pt/devops/continuous-integration/)
 
