@@ -49,12 +49,19 @@ Existem vários eventos e para cada evento, uma venda de ingressos e tem-se os p
 
 Com base no Banco de Dados desenvolvido, criou-se as Telas para: 
 *[Tela Login](#Tela-Login)
+
 *[Tela Menu](#Tela-Menu)
+
 *[Tela Participante](#Tela-Participante)
+
 *[Tela Artista](#Tela-Artista)
+
 *[Tela Musica](#Tela-Musica)
+
 *[Tela Evento](#Tela-Evento)
+
 *[Tela Ingresso](#Tela-Ingresso)
+
 *[Tela Palco](#Tela-Palco)
 
 ## Tela Login
