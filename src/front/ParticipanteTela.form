@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ParticipanteTela">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d98b2" class="javax.swing.JLabel" binding="lblNome">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nome:"/>
+        </properties>
+      </component>
+      <component id="141d" class="javax.swing.JLabel" binding="lblDataNasc">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Data de Nascimento:"/>
+        </properties>
+      </component>
+      <component id="d507c" class="javax.swing.JLabel" binding="lblCPF">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CPF:"/>
+        </properties>
+      </component>
+      <component id="bf6fd" class="javax.swing.JLabel" binding="lblTelefone">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Telefone:"/>
+        </properties>
+      </component>
+      <component id="4c59a" class="javax.swing.JLabel" binding="lblEmail">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="E-mail:"/>
+        </properties>
+      </component>
+      <component id="f7f" class="javax.swing.JTextField" binding="txtNome">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6644f" class="javax.swing.JTextField" binding="txtDataNasc">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="56e20" class="javax.swing.JTextField" binding="txtCPF">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="874fc" class="javax.swing.JTextField" binding="txtTel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="88549" class="javax.swing.JTextField" binding="txtEmail">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d7388" class="javax.swing.JButton" binding="btnOKParticipantes">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Atualizar"/>
+        </properties>
+      </component>
+      <component id="acd31" class="javax.swing.JLabel" binding="lblParticipantes">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Participantes"/>
+        </properties>
+      </component>
+      <component id="f84e8" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cadastrar"/>
+        </properties>
+      </component>
+      <component id="e6490" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Excluir"/>
+        </properties>
+      </component>
+      <component id="b81d7" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Voltar ao Menu"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
