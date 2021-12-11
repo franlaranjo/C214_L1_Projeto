@@ -40,3 +40,52 @@ $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 -[Testes Mock](http://www.desenvolvimentoagil.com.br/xp/praticas/tdd/mock_objects): Normalmente criados para testar o comportamento de outros objetos. Em outras palavras, os objetos mock são objetos “falsos” que simulam o comportamento de uma classe ou objeto, permitindo foco na unidade a ser testada.
 
 -[Testes unitários](https://medium.com/assertqualityassurance/teste-unit%C3%A1rio-e-qualidade-de-software-acce7b9c537#:~:text=Testes%20de%20Unidade%20ou%20teste,elas%20estejam%20funcionando%20conforme%20especificado.): É toda a aplicação de teste nas assinaturas de entrada e saída de um sistema. Consiste em validar dados válidos e inválidos.
+
+## :computer: Telas e Funcionamento
+
+Existem vários eventos e para cada evento, uma venda de ingressos e tem-se os participantes que estarão em cada evento. Além disso, há vários palcos no mesmo evento. Para cada palco é relacionado os artistas que se apresentarão em cada palco e quais músicas serão reproduzidas.
+
+<img src="img/BD.png"/>
+
+Com base no Banco de Dados desenvolvido, criou-se as Telas para: 
+*[Tela Login](#Tela-Login)
+*[Tela Menu](#Tela-Menu)
+*[Tela Participante](#Tela-Participante)
+*[Tela Artista](#Tela-Artista)
+*[Tela Musica](#Tela-Musica)
+*[Tela Evento](#Tela-Evento)
+*[Tela Ingresso](#Tela-Ingresso)
+*[Tela Palco](#Tela-Palco)
+
+## Tela Login
+
+<img src="img/TelaLogin.png"/>
+
+## Tela Menu
+
+<img src="img/TelaMenu.png"/>
+
+## Tela Participante
+
+<img src="img/TelaParticipantes.png"/>
+
+## Tela Artista
+
+<img src="img/TelaArtista.png"/>
+
+## Tela Musica
+
+<img src="img/TelaMusica.png"/>
+
+## Tela Evento
+
+<img src="img/TelaEvento.png"/>
+
+## Tela Ingresso
+
+<img src="img/TelaIngresso.png"/>
+
+## Tela Palco
+
+<img src="img/TelaPalco.png"/>
+
