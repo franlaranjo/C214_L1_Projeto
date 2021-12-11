@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/discografia.js"></script>
+  <title>Discografia S&J</title>
+  <meta name="Referência Slider LIB" content="https://www.cssscript.com/automatic-circular-slider-vanilla-javascript/">
+  <meta name="Referência informações" content="https://www.letras.mus.br/sandy-e-junior-musicas/discografia/">
+</head>
+
+<body>
+  <div class="slider">
+    <div class="circular-slider circular-slider-1">
+      <div class="wrapper">
+        <div class="controls">
+          <div class="controls__left">
+            <div class="icon-wrapper"><i class="far fa-arrow-alt-circle-left"></i></div>
+          </div>
+          <div class="controls__right">
+            <div class="icon-wrapper"><i class="far fa-arrow-alt-circle-right"></i></div>
+          </div>
+          <div class="controls__autoplay controls__autoplay_running">
+            <div class="icon-wrapper">
+              <div class="pause"><i class="far fa-pause-circle"></i></div>
+              <div class="run"><i class="far fa-play-circle"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="slides-holder">
+          <script>
+            discografia.map(item => document.write(`
+              <div class="slides-holder__item"><a href="${item.link}" target="_blank"><img src="${item.img}" alt="img"/></a></div>
+              `));
+          </script>
+        </div>
+        <div class="descriptions">
+          <script>
+            discografia.map((item, index) => document.write(`
+              <div class="descriptions__item ${index === 0 ? 'descriptions__item_visible' : ''}">
+                <h1>${item.name}</h1>
+                <p class="description">
+                  ${item.description}
+                </p>
+                <br/>
+                <ol>
+                  ${
+                    item.list ? item.list
+                    .map(item_list => `<li>${item_list}</li>`)
+                    .join("") : ""
+                  }
+                </ol>
+              </div>
+              `));
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/circular-slider.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</body>
+
+</html>
