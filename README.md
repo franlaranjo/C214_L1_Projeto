@@ -43,6 +43,8 @@ $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 
 -[Cypress](https://www.cypress.io): Auxilia o teste de unidade para o FrontEnd.
 
+$npm install cypress ou [Download](https://download.cypress.io/desktop)
+
 ## :computer: Telas e Funcionamento
 
 O Software Cadastra Musicas, Participantes, Artistas, Ingressos e Locais para os eventos.
