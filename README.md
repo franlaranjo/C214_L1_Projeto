@@ -23,6 +23,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
 - [MYSQL Workbench](https://dev.mysql.com/downloads/workbench/)
 - [Maven](https://maven.apache.org/install.html)
+- [Cypress](https://download.cypress.io/desktop)
 
 ## :warning: Clone
 
@@ -33,9 +34,9 @@ $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 
 ## :bulb: Saiba mais
 
--[CI](https://aws.amazon.com/pt/devops/continuous-integration/)
-
 -[Github Actions](https://github.com/features/actions)
+
+-[CI](https://aws.amazon.com/pt/devops/continuous-integration/): é uma prática de desenvolvimento de software de DevOps em que os desenvolvedores, com frequência, juntam suas alterações de código em um repositório central. Depois disso, criações e testes são executados.
 
 -[Testes Mock](http://www.desenvolvimentoagil.com.br/xp/praticas/tdd/mock_objects): Normalmente criados para testar o comportamento de outros objetos. Em outras palavras, os objetos mock são objetos “falsos” que simulam o comportamento de uma classe ou objeto, permitindo foco na unidade a ser testada.
 
@@ -43,7 +44,7 @@ $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 
 -[Cypress](https://www.cypress.io): Auxilia o teste de unidade para o FrontEnd.
 
-$npm install cypress ou [Download](https://download.cypress.io/desktop)
+$npm install cypress 
 
 ## :computer: Telas e Funcionamento
 
