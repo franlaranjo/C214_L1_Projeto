@@ -23,6 +23,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - [IntelliJ](https://www.jetbrains.com/pt-br/idea/download/#section=windows)
 - [MYSQL Workbench](https://dev.mysql.com/downloads/workbench/)
 - [Maven](https://maven.apache.org/install.html)
+- [Cypress](https://download.cypress.io/desktop)
 
 ## :warning: Clone
 
@@ -33,13 +34,17 @@ $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 
 ## :bulb: Saiba mais
 
--[CI](https://aws.amazon.com/pt/devops/continuous-integration/)
-
 -[Github Actions](https://github.com/features/actions)
+
+-[CI](https://aws.amazon.com/pt/devops/continuous-integration/): é uma prática de desenvolvimento de software de DevOps em que os desenvolvedores, com frequência, juntam suas alterações de código em um repositório central. Depois disso, criações e testes são executados.
 
 -[Testes Mock](http://www.desenvolvimentoagil.com.br/xp/praticas/tdd/mock_objects): Normalmente criados para testar o comportamento de outros objetos. Em outras palavras, os objetos mock são objetos “falsos” que simulam o comportamento de uma classe ou objeto, permitindo foco na unidade a ser testada.
 
 -[Testes unitários](https://medium.com/assertqualityassurance/teste-unit%C3%A1rio-e-qualidade-de-software-acce7b9c537#:~:text=Testes%20de%20Unidade%20ou%20teste,elas%20estejam%20funcionando%20conforme%20especificado.): É toda a aplicação de teste nas assinaturas de entrada e saída de um sistema. Consiste em validar dados válidos e inválidos.
+
+-[Cypress](https://www.cypress.io): Auxilia o teste de unidade para o FrontEnd.
+
+$npm install cypress 
 
 ## :computer: Telas e Funcionamento
 
