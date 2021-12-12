@@ -41,6 +41,8 @@ $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 
 -[Testes unitários](https://medium.com/assertqualityassurance/teste-unit%C3%A1rio-e-qualidade-de-software-acce7b9c537#:~:text=Testes%20de%20Unidade%20ou%20teste,elas%20estejam%20funcionando%20conforme%20especificado.): É toda a aplicação de teste nas assinaturas de entrada e saída de um sistema. Consiste em validar dados válidos e inválidos.
 
+-[Cypress](https://www.cypress.io): Auxilia o teste de unidade para o FrontEnd.
+
 ## :computer: Telas e Funcionamento
 
 O Software Cadastra Musicas, Participantes, Artistas, Ingressos e Locais para os eventos.
