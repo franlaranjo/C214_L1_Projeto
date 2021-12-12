@@ -43,7 +43,8 @@ $ git clone https://github.com/franlaranjo/C214_L1_Projeto.git
 
 ## :computer: Telas e Funcionamento
 
-Existem vários eventos e para cada evento, uma venda de ingressos e tem-se os participantes que estarão em cada evento. Além disso, há vários palcos no mesmo evento. Para cada palco é relacionado os artistas que se apresentarão em cada palco e quais músicas serão reproduzidas.
+O Software Cadastra Musicas, Participantes, Artistas, Ingressos e Locais para os eventos.
+Existem vários eventos e para cada evento, uma venda de ingressos. Tem-se participantes que estarão em cada evento. Além disso, há vários palcos no mesmo evento. Para cada palco é relacionado os artistas que se apresentarão e quais músicas serão reproduzidas.
 
 <img src="img/BD.png"/>
 
@@ -63,6 +64,8 @@ Com base no Banco de Dados desenvolvido, criou-se as Telas para:
 *[Tela Ingresso](#Tela-Ingresso)
 
 *[Tela Palco](#Tela-Palco)
+
+*[Tela Pesquisa](#Tela-Pesquisa)
 
 ## Tela Login
 
@@ -95,4 +98,8 @@ Com base no Banco de Dados desenvolvido, criou-se as Telas para:
 ## Tela Palco
 
 <img src="img/TelaPalco.png"/>
+
+## Tela Pesquisa
+
+<img src="img/TelaPesquisa.png"/>
 
